@@ -1,0 +1,33 @@
+// Breakpoint variables
+
+// Mobile
+$screen-sm-max: 500px;
+
+// Small Desktop
+$screen-lg-max: 1050px;
+
+// Desktops
+$screen-xl-max: 1440px;
+
+// Breakpoint mixins
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}
