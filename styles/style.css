@@ -142,13 +142,13 @@ footer {
 }
 .card__img {
   width: 50%;
-  background-image: url(/images/image-header-desktop.jpg);
+  background-image: url(../images/image-header-desktop.jpg);
   background-color: var(--color-primary-accent);
   background-blend-mode: multiply;
 }
 @media (max-width: 1050px) {
   .card__img {
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url(../images/image-header-mobile.jpg);
     height: 30rem;
     background-size: cover;
     width: 100%;
